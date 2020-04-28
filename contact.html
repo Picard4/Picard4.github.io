@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="navigation">
+        <header>
+            <section class="banner-section">
+                <h1>Palmar DiMarco</h1>
+            </section>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://github.com/Picard4/Picard4.github.io" target="_blank">GitHub</a></li>
+                <li><a href="inspirations.html">Influences</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <section id="contact_forms">
+
+            <form action="/action_page.php" method="POST">
+                <h1>Contact information</h1>
+                <p>Please enter your contact information below if you would like to speak to me</p>
+
+                <label for="name">Name:</label>
+                <input type="text" name="name">
+
+                <label for="email_address">email address:</label>
+                <input type="text" name="email_address">
+
+                <label for="phone_number">Phone number:</label>
+                <input type="text" name="phone_number">
+
+
+                <h2>Preferred contact method</h2>
+                <p>How do you prefer to be contacted?</p>
+
+                <input type="radio" id="email_option" name="contact_user">
+                <label for="contact1">email</label>
+
+                <input type="radio" id="phone_option" name="contact_user">
+                <label for="contact2">phone</label>
+
+                <h2>Province</h2>
+                <p>Which province do you live in?</p>
+                <select name="province">
+                    <option value="Alberta">Alberta</option>
+                    <option value="British Columbia">British Columbia</option>
+                    <option value="Manitoba">Manitoba</option>
+                    <option value="New Brunswick">New Brunswick</option>
+                    <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+                    <option value="Northwest Territories">Northwest Territories</option>
+                    <option value="Nova Scotia">Nova Scotia</option>
+                    <option value="Nunavut">Nunavut</option>
+                    <option value="Ontario">Ontario</option>
+                    <option value="Prince Edward Island">Prince Edward Island</option>
+                    <option value="Quebec">Quebec</option>
+                    <option value="Saskatchewan">Saskatchewan</option>
+                    <option value="Yukon">Yukon</option>
+                </select>
+
+                <h2>Additional information</h2>
+                <label for="msg1">Please enter any other necessary information below:</label>
+                <textarea name="msg1"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Sources</p>
+        <a href="http://www.johnabbott.qc.ca/john-abbott-set-to-reveal-hall-of-distinction/">John Abbott</a>
+
+        <a href="https://colorpalettes.net/color-palette-4134/">Color</a>
+    </footer>
+</body>
+
+</html>

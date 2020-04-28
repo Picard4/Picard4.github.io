@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* font sizes and spacing */
+h1{ 
+    font-size: 2em;
+    line-height: 2;
+}
+h2{
+    font-size: 1.5em;
+    line-height: 1.7;
+}
+h3{
+    font-size: 1.17em;
+    line-height: 1.5;
+}
+p{
+    font-size: 1em;
+    line-height: 1.3;
+}
+footer{
+    font-size: 0.75em;
+    line-height: 1.1;
+}
