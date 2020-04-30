@@ -9,32 +9,26 @@
 </head>
 
 <body>
-    <div id="navigation">
-        <header>
-            <section class="banner-section">
-                <h1>Palmar DiMarco</h1>
-            </section>
-        </header>
+    <nav>
+        <section class="banner-section">
+            <h1>Palmarino DiMarco</h1>
+        </section>
+        <ul id="nav_links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://github.com/Picard4/Picard4.github.io" target="_blank">GitHub</a></li>
+            <li><a href="inspirations.html">Inspirations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="https://github.com/Picard4/Picard4.github.io" target="_blank">GitHub</a></li>
-                <li><a href="inspirations.html">Inspirations</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
+    <main id="contact">
+        <form action="/action_page.php" method="POST" name="contact_information">
 
-    <main>
-        <section id="contact_forms">
-
-            <form action="/action_page.php" method="POST">
-
-
+            <div class="contact_title">
                 <h1>Contact information</h1>
                 <p>Please enter your contact information below if you would like to speak to me</p>
-
+            </div>
+            <div id="contact_data" class="contact_form">
                 <label for="name">Name:</label>
                 <input type="text" name="name">
 
@@ -43,19 +37,25 @@
 
                 <label for="phone_number">Phone number:</label>
                 <input type="text" name="phone_number">
+            </div>
 
-
+            <div class="contact_title">
                 <h2>Preferred contact method</h2>
                 <p>How do you prefer to be contacted?</p>
-
+            </div>
+            <div id="contact_method" class="contact_form">               
                 <input type="radio" id="email_option" name="contact_user">
                 <label for="contact1">email</label>
 
                 <input type="radio" id="phone_option" name="contact_user">
                 <label for="contact2">phone</label>
+            </div>
 
+            <div class="contact_title">
                 <h2>Province</h2>
                 <p>Which province do you live in?</p>
+            </div>
+            <div id="contact_province" class="contact_form">
                 <select name="province">
                     <option value="Alberta">Alberta</option>
                     <option value="British Columbia">British Columbia</option>
@@ -71,24 +71,29 @@
                     <option value="Saskatchewan">Saskatchewan</option>
                     <option value="Yukon">Yukon</option>
                 </select>
-
+            </div>
+            <div class="contact_title">
                 <h2>Additional information</h2>
-                <label for="msg1">Please enter any other necessary information below:</label>
-                <textarea name="msg1"></textarea>
-
+                <p>Please enter any other necessary information below:</p>
+            </div>
+            <div id="contact_extra" class="contact_form">
+                <textarea name="extra_info"></textarea>
+            </div>
+            <div id="contact_submit">
                 <input type="submit" value="Submit">
-            </form>
-        </section>
+            </div>
+        </form>
     </main>
 
     <footer>
         <h3>Sources</h3>
-        <a href="http://www.johnabbott.qc.ca/john-abbott-set-to-reveal-hall-of-distinction/">John Abbott</a>
-        <a href="https://www.miltonmarketing.com/coding/programming-concepts/object-oriented-programming-oop/">Object
-            Oriented Programming</a>
-        <a href="https://www.nintendo.co.uk/Wii-U/Wii-U-344102.html">Wii U</a>
-        <a href="https://noeticforce.com/best-game-engines">Game Engines</a>
-        <a href="https://colorpalettes.net/color-palette-4134/">Color Palette</a>
+        <a href="http://www.johnabbott.qc.ca/john-abbott-set-to-reveal-hall-of-distinction/" target="_blank">John
+            Abbott</a>
+        <a href="https://noeticforce.com/best-game-engines" target="_blank">Game Engines</a>
+        <a href="https://www.amazon.ca/Calculus-Early-Transcendentals-James-Stewart/dp/1285741552"
+            target="_blank">Calculus</a>
+        <a href="https://www.nintendo.co.uk/Wii-U/Wii-U-344102.html" target="_blank">Wii U</a>
+        <a href="https://colorpalettes.net/color-palette-4134/" target="_blank">Color Palette</a>
     </footer>
 </body>
 

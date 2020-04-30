@@ -37,3 +37,146 @@ footer{
     line-height: 1.1;
     Color: #6e4d35;
 }
+/* standard styling */
+a{
+    text-decoration: none;
+
+}
+ul{
+    list-style-type: none;
+}
+/* navbar */
+nav{
+    position: sticky;
+    position: -webkit-sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    z-index: 5;
+    background-color: #b4b5a7;
+    margin-bottom: 1em;
+}
+nav section{
+    flex: 1;
+}
+#nav_links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+#nav_links li a, footer a{
+    background-color: #eeceb8;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+#nav_links li a:hover, footer a:hover{
+    background-color: #f0f1f6;
+    color: #595d3d;
+}
+article{
+    padding: 1em;
+    background-color: #f0f1f6;
+}
+/* footer */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #b4b5a7;
+}
+/* index */
+#About_me img{
+    grid-area: ai;
+}
+#About_me_text{
+    grid-area: at;
+    margin: auto;
+}
+#About_me, .influence{
+  display: grid;
+  margin: 0 2em;
+  grid-template-rows: repeat(2, 1fr);      
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5em;
+}
+#About_me{
+    grid-template-areas: 
+    "ai at"
+    "ai at";
+}
+/* inspirations */
+.influence img{
+    grid-area: ii;
+}
+.influence_text{
+    grid-area: it;
+    margin: auto;
+}
+.influence{
+    grid-template-areas: 
+    "ii it"
+    "ii it";
+}
+#jac{
+    grid-area: A;
+}
+#engine{
+    grid-area: B;
+}
+#math{
+    grid-area: C;
+}
+#multi_platform{
+    grid-area: D;
+}
+#inspirations{
+    display: grid;
+    margin: 0 2em;
+    grid-template-rows: repeat(4, 1fr);      
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5em;
+    grid-template-areas: 
+    "A A"
+    "B B"
+    "C C"
+    "D D";
+}
+/*contact*/
+#contact{
+    padding: 0 1em;
+    background-color: #f0f1f6;
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#contact_submit{
+    display: flex;
+    justify-content: center;
+}
+#contact_submit input{
+    padding: 1em;
+    margin: 1em 0;
+    background-color: #eeceb8;
+}
+#contact_method{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#contact_method input{
+    margin: 0 0.5em;
+}
+.contact_title{
+    text-align: center;
+}
+textarea{
+    width: 100%;
+    max-height: 5em;
+}
