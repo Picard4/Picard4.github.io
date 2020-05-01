@@ -22,7 +22,7 @@
     </nav>
 
     <main id="contact">
-        <form action="/action_page.php" method="POST" name="contact_information">
+        <form name="contact_information">
 
             <div class="contact_title">
                 <h1>Contact information</h1>
@@ -30,13 +30,13 @@
             </div>
             <div id="contact_data" class="contact_form">
                 <label for="name">Name:</label>
-                <input type="text" name="name">
+                <input type="text" name="name" required>
 
                 <label for="email_address">email address:</label>
-                <input type="text" name="email_address">
+                <input type="email" id="email" name="email_address" required>
 
                 <label for="phone_number">Phone number:</label>
-                <input type="text" name="phone_number">
+                <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phone_number" required>
             </div>
 
             <div class="contact_title">
@@ -44,10 +44,10 @@
                 <p>How do you prefer to be contacted?</p>
             </div>
             <div id="contact_method" class="contact_form">               
-                <input type="radio" id="email_option" name="contact_user">
+                <input type="radio" id="email_option" name="contact_user" required>
                 <label for="contact1">email</label>
 
-                <input type="radio" id="phone_option" name="contact_user">
+                <input type="radio" id="phone_option" name="contact_user" required>
                 <label for="contact2">phone</label>
             </div>
 
@@ -56,7 +56,7 @@
                 <p>Which province do you live in?</p>
             </div>
             <div id="contact_province" class="contact_form">
-                <select name="province">
+                <select name="province" required>
                     <option value="Alberta">Alberta</option>
                     <option value="British Columbia">British Columbia</option>
                     <option value="Manitoba">Manitoba</option>
