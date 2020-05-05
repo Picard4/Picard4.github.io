@@ -69,7 +69,7 @@ nav section{
 }
 #nav_links li a, footer a{
     background-color: #eeceb8;
-    padding: 0.5em;
+    padding: 1em;
     border-radius: 1em;
 }
 #nav_links li a:hover, footer a:hover{
