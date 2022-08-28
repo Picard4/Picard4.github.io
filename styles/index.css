@@ -59,13 +59,14 @@ nav{
     background-color: #b4b5a7;
     margin-bottom: 1em;
 }
-nav section{
+#nav_label{
     flex: 1;
+    text-align: center;
 }
 #nav_links{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex: 1;
 }
 #nav_links li a, footer a{
@@ -85,10 +86,20 @@ article{
 footer{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 1em;
     padding: 1em;
     background-color: #b4b5a7;
+}
+#footer_label{
+    flex: 1;
+    text-align: center;
+}
+#contact_links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
 }
 /* index */
 #About_me img{
@@ -165,6 +176,8 @@ img{
     flex-direction: column;
     align-self: center;
 }
+
+/* Media Queries */
 @media(max-width: 590px){
     #About_me, .influence{
         display: grid;

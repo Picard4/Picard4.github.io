@@ -4,21 +4,21 @@
 let standardNavbar = document.getElementById("standard_navbar");
 if (standardNavbar !== null) {
     standardNavbar.innerHTML = `
-            <section class="banner-section">
-            <h1>Palmarino DiMarco</h1>
-            </section>
-            <ul id="nav_links">
-                <li><a href="index.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul>`;
+        <h1 id="nav_label">Palmarino DiMarco</h1>
+        <ul id="nav_links">
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>`;
 }
 
 // Standard Footer Generator
 let standardFooter = document.getElementById("standard_footer");
 if (standardFooter !== null) {
     standardFooter.innerHTML = `
-        <h3>Contact Me</h3>
-        <a href="https://github.com/Picard4" target="_blank">GitHub</a>
-        <a href="mailto:palmardimarco@gmail.com">Email</a>
-        <a href="https://www.linkedin.com/in/palmarino-dimarco-132865217/" target="_blank">LinkedIn</a>`;
+        <h3 id="footer_label">Contact Me</h3>
+        <ul id="contact_links">
+            <li><a href="https://github.com/Picard4" target="_blank">GitHub</a></li>
+            <li><a href="mailto:palmardimarco@gmail.com">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/palmarino-dimarco-132865217/" target="_blank">LinkedIn</a></li>
+        </ul>`;
 }
