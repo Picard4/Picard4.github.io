@@ -8,10 +8,8 @@ if (standardNavbar !== null) {
             <h1>Palmarino DiMarco</h1>
             </section>
             <ul id="nav_links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="https://github.com/Picard4" target="_blank">GitHub</a></li>
-                <li><a href="inspirations.html">Inspirations</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
             </ul>`;
 }
 
@@ -19,10 +17,8 @@ if (standardNavbar !== null) {
 let standardFooter = document.getElementById("standard_footer");
 if (standardFooter !== null) {
     standardFooter.innerHTML = `
-        <h3>Sources</h3>
-        <a href="http://www.johnabbott.qc.ca/john-abbott-set-to-reveal-hall-of-distinction/" target="_blank">John Abbott</a>
-        <a href="https://noeticforce.com/best-game-engines" target="_blank">Game Engines</a>
-        <a href="https://www.amazon.ca/Calculus-Early-Transcendentals-James-Stewart/dp/1285741552" target="_blank">Calculus</a>
-        <a href="https://www.nintendo.co.uk/Wii-U/Wii-U-344102.html" target="_blank">Wii U</a>
-        <a href="https://colorpalettes.net/color-palette-4134/" target="_blank">Color Palette</a>`;
+        <h3>Contact Me</h3>
+        <a href="https://github.com/Picard4" target="_blank">GitHub</a>
+        <a href="mailto:palmardimarco@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/palmarino-dimarco-132865217/" target="_blank">LinkedIn</a>`;
 }

@@ -1,3 +1,4 @@
+/* Color Palette taken from https://colorpalettes.net/color-palette-4134/ */
 *{
     box-sizing: border-box;
     padding: 0;
@@ -105,8 +106,7 @@ footer{
   grid-gap: 1.5em;
 }
 #About_me{
-    grid-template-areas: 
-    "ai at";
+    grid-template-areas: "ai at";
 }
 /* inspirations */
 .influence img{
@@ -146,38 +146,6 @@ footer{
 }
 .influence img{
     max-height: 100%;
-}
-/*contact*/
-#contact{
-    padding: 0 1em;
-    background-color: #f0f1f6;
-}
-.contact_form{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-#contact_submit{
-    display: flex;
-    justify-content: center;
-}
-#contact_submit input{
-    padding: 1em;
-    margin: 1em 0;
-    background-color: #eeceb8;
-}
-#contact_method{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-#contact_method input{
-    margin: 0 0.5em;
-}
-.contact_title{
-    text-align: center;
 }
 textarea{
     width: 100%;
