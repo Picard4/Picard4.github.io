@@ -15,7 +15,7 @@ if (standardNavbar !== null) {
 let standardFooter = document.getElementById("standard_footer");
 if (standardFooter !== null) {
     standardFooter.innerHTML = `
-        <h3 id="footer_label">Contact Me</h3>
+        <h2 id="footer_label">Contact Me</h2>
         <ul id="contact_links">
             <li><a href="https://github.com/Picard4" target="_blank">GitHub</a></li>
             <li><a href="mailto:palmardimarco@gmail.com">Email</a></li>
