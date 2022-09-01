@@ -134,26 +134,27 @@ footer{
   'i s'
   'e t';
 }
-/* inspirations */
-.influence{
+/* projects */
+.project{
     display: grid;
     margin: 0 1em;
     grid-template-rows: repeat(1, 1fr);      
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1em;
 }
-.influence img{
+.project img{
     grid-area: ii;
+    max-height: 100%;
 }
-.influence_text{
+.project_text{
     grid-area: it;
     margin: auto;
 }
-.influence{
+.project{
     grid-template-areas: 
     "ii it";
 }
-#jac{
+#steel_hostilities{
     grid-area: A;
 }
 #engine{
@@ -177,9 +178,6 @@ footer{
     "C"
     "D";
 }
-.influence img{
-    max-height: 100%;
-}
 textarea{
     width: 100%;
     max-width: 100%;
@@ -201,18 +199,18 @@ img{
 
 /* Media Queries */
 @media(max-width: 590px){
-    #About_me, .influence{
+    #about_me, .project{
         display: grid;
         margin: 0;
         grid-template-rows: 1fr 2fr;      
         grid-template-columns: repeat(1, 1fr);
     }
-    .influence{
+    .project{
         grid-template-areas: 
         "ii"
         "it";
     }
-    #About_me{
+    #about_me{
         grid-template-areas: 
         "ai"
         "at";
@@ -220,7 +218,7 @@ img{
     #multi_platform{
         margin-top: 5em;
     }
-    #About_me img{
+    #about_me img{
         margin-bottom: -7em;
     }
     #standard_footer{
