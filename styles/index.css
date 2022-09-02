@@ -155,28 +155,25 @@ footer{
     "ii it";
 }
 #steel_hostilities{
-    grid-area: A;
+    grid-area: sh;
 }
-#engine{
-    grid-area: B;
+#rng_hell_series{
+    grid-area: rng;
 }
-#math{
-    grid-area: C;
+#rng_hell_screenshots{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-#multi_platform{
-    grid-area: D;
-}
-#inspirations{
+#projects{
     display: grid;
     margin: 0 2em;
-    grid-template-rows: repeat(4, 1fr);      
+    grid-template-rows: repeat(2, 1fr);      
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 1.5em;
     grid-template-areas: 
-    "A"
-    "B"
-    "C"
-    "D";
+    "rng"
+    "sh";
 }
 textarea{
     width: 100%;
